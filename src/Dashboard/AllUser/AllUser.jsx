@@ -6,7 +6,7 @@ const AllUser = () => {
     const handleonClose =()=>setShowModal(false)
     const [users,setUser] = useState([])
     useEffect(()=>{
-        fetch(`http://localhost:5000/allusers/`)
+        fetch(`https://m-server-ashen.vercel.app/allusers/`)
         .then(res=>res.json())
         .then(data=> setUser(data))
       },[])

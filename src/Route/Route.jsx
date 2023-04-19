@@ -28,7 +28,7 @@ const router = createBrowserRouter([
             {
                 path:'/allproducts/:id',
                 element:<ProductCart></ProductCart>,
-                loader:({params})=> fetch(`http://localhost:5000/allproducts/${params.id}`) 
+                loader:({params})=> fetch(`https://m-server-ashen.vercel.app//allproducts/${params.id}`) 
             },
             
             {

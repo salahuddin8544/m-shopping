@@ -40,7 +40,7 @@ console.log(user);
     const [state,dispatch] = useReducer(ProductReducer,inittialState);
     useEffect(()=>{
       dispatch({type:ACTION_TYPE.FETCHING_START})
-        fetch('products.json')
+        fetch('https://m-server-ashen.vercel.app/allproducts')
         .then(res=>res.json())
         .then(data=>
        dispatch({type:ACTION_TYPE.FETCHING_SUCCESS, payload:data})

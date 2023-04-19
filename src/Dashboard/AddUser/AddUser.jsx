@@ -15,7 +15,7 @@ const AddUser = ({visible,onClose}) => {
     email,
     role
   }
-  fetch('http://localhost:5000/allusers', {
+  fetch('https://m-server-ashen.vercel.app//allusers', {
     method:'POST',
     headers:{
       'content-type': 'application/json'
