@@ -1,6 +1,7 @@
 import React from 'react';
 import { USE_CONTEXT } from '../Context/ProductProvider';
 import ProductCart from './ProductCart';
+import Slide from '../Components/Slides/Slide';
 
 const Home = () => {
     let content;
@@ -24,8 +25,12 @@ const Home = () => {
     }
     
      return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+        <div className='max-w[1400px h-full]'>
+            <Slide></Slide>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
             {content}
+            </div>
+         
         </div>
     );
 };

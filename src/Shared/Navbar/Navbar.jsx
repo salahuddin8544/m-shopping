@@ -45,7 +45,7 @@ console.log('this is admin',"this is user", user);
       </div>
       <ul id='list-item' className={`md:flex bg-white w-full absolute left-0 items-center transition-all top-20 ease-in md:static md:w-auto duration-500 ${open? 'top-20': 'top-[-490px]'}`}>
        <li className='mx-4 my-6 md:my-0'>
-            <Link to={'/allproducts'} className='text-xl text-cyan-400 hover:text-cyan-600 duration-500'>My Card</Link>
+            <Link to={'/allproducts'} className='text-xl text-cyan-400 hover:text-cyan-600 duration-500'>My card</Link>
  
            
        </li>
