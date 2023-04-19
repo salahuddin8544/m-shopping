@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Olive Oil",
+      "price": "340",
+      "photo":"https://cdn.britannica.com/55/157155-050-D07F5610/Containers-olive-oil.jpg"
+    },
+    {
+      "name": " Rose Shoap",
+      "price": "40",
+      "photo":"https://5.imimg.com/data5/AC/GM/LF/SELLER-51536152/lux-rose-shoap-500x500.jpg"
+    },
+    {
+      "name": "Branded Shoes",
+      "price": "200",
+      "photo":"https://5.imimg.com/data5/ANDROID/Default/2022/2/TL/VA/KO/11667563/product-jpeg-500x500.jpg"
+    },
+    {
+      "name": "Round Patek Philippe Silver Diamond Watch",
+      "price": "770",
+      "photo":"https://5.imimg.com/data5/SELLER/Default/2022/1/QE/JP/AV/121235476/photo-2022-01-22-18-45-15-500x500.jpg"
+    },
+    {
+      "name": "White Refined Sugar, Crystal, Packaging Size: 50,KG",
+      "price": "330",
+      "photo":"https://5.imimg.com/data5/ANDROID/Default/2022/2/PK/XS/ZC/37274499/product-jpeg-500x500.jpg"
+    },
+    {
+      "name": "RAJ Brown DEVA LOBAN BATTI premium",
+      "price": "530",
+      "photo":"https://5.imimg.com/data5/WW/MD/FD/SELLER-87583/deva-incense-sticks-1-500x500.jpg"
+    },
+    {
+      "name": "Tommy Atkins mangoes",
+      "price": "530",
+      "photo":"https://5.imimg.com/data5/SELLER/Default/2023/4/299458228/LZ/EM/BX/159824908/tommy-atkins-mango-variety-page-0-500x500.png"
+    }
+  ]
