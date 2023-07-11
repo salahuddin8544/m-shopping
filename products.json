@@ -1,37 +1,105 @@
 [
-    {
-      "name": "Olive Oil",
-      "price": "340",
-      "photo":"https://cdn.britannica.com/55/157155-050-D07F5610/Containers-olive-oil.jpg"
-    },
-    {
-      "name": " Rose Shoap",
-      "price": "40",
-      "photo":"https://5.imimg.com/data5/AC/GM/LF/SELLER-51536152/lux-rose-shoap-500x500.jpg"
-    },
-    {
-      "name": "Branded Shoes",
-      "price": "200",
-      "photo":"https://5.imimg.com/data5/ANDROID/Default/2022/2/TL/VA/KO/11667563/product-jpeg-500x500.jpg"
-    },
-    {
-      "name": "Round Patek Philippe Silver Diamond Watch",
-      "price": "770",
-      "photo":"https://5.imimg.com/data5/SELLER/Default/2022/1/QE/JP/AV/121235476/photo-2022-01-22-18-45-15-500x500.jpg"
-    },
-    {
-      "name": "White Refined Sugar, Crystal, Packaging Size: 50,KG",
-      "price": "330",
-      "photo":"https://5.imimg.com/data5/ANDROID/Default/2022/2/PK/XS/ZC/37274499/product-jpeg-500x500.jpg"
-    },
-    {
-      "name": "RAJ Brown DEVA LOBAN BATTI premium",
-      "price": "530",
-      "photo":"https://5.imimg.com/data5/WW/MD/FD/SELLER-87583/deva-incense-sticks-1-500x500.jpg"
-    },
-    {
-      "name": "Tommy Atkins mangoes",
-      "price": "530",
-      "photo":"https://5.imimg.com/data5/SELLER/Default/2023/4/299458228/LZ/EM/BX/159824908/tommy-atkins-mango-variety-page-0-500x500.png"
-    }
-  ]
+  {
+    "name": "Paneer Butter Masala Bowl",
+    "category":"India",
+    "price": "340",
+    "description": "Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/e71d5d3d-d9cc-46e0-b0ad-84bc99e677c8.jpg"
+  },
+  {
+    "name": "Mint Chaas",
+    "price": "220",
+    "category":"India",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/3867c0c8-6e4f-441e-8972-494790ce3070.JPG"
+  },
+  {
+    "name": "Paneer Tikka Rice Bowl",
+    "price": "200",
+    "category":"India",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/662c86e0-6c77-409b-9cb2-0d8789c692b4.JPG"
+  },
+  {
+    "name": "Fresh Slaw Whole Wheat Sandwich",
+    "price": "770",
+    "category":"India",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/a188ecd9-afd1-4dd6-8dd1-5922c683df42.jpg"
+  },
+  {
+    "name": "Cheesy Veg Wrap",
+    "price": "330",
+    "category":"India",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/eb0dbbfc-404b-4753-8cfe-f17995592105.jpg"
+  },
+  {
+    "name": "Ghee Roast Chicken Wrap",
+    "price": "530",
+    "category":"India",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/bd2b814b-91e3-4fd1-b02a-233d68f4e0b5.jpg"
+  },
+  {
+    "name": "Chicken Tikka Fried Rice ",
+    "price": "530",
+    "category":"India",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/dc26e53f-991c-466c-aa34-0a188e444bbe.jpg"
+  },
+  {
+    "name": "Honey Chicken Peppers ",
+    "price": "530",
+    "category":"Asia",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/1b0e914a-40f9-4477-badd-363de347a9ce.jpg"
+  },
+  {
+    "name": "Roasted Garlic Chicken Soup",
+    "price": "599",
+    "category":"Asia",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/fe7321c7-610b-46f4-a4b5-69364b63df00.jpg"
+  },
+  {
+    "name": "Crispy Fried American Corn",
+    "price": "530",
+    "category":"Asia",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/f3be018d-78ae-474d-8327-9051d1207516.jpg"
+  },
+  {
+    "name": "Sesame Chicken Bites",
+    "price": "672",
+    "category":"Asia",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/a1ff5158-2aec-4ce5-8d17-c4b6e395c9fa.jpg"
+  },
+  {
+    "name": "Chilli Paneer",
+    "price": "730",
+    "category":"Asia",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/c752d52f-a186-4bb5-9405-a587965794a6.jpg"
+  },
+  {
+    "name": "Dragon Noodles with Dumplings ",
+    "price": "544",
+    "category":"Asia",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/8f5e153f-ea28-4ec8-80fc-aa086e66e520.jpg"
+  },
+  {
+    "name": "Stir Fried Chilli Paneer Superbowl",
+    "price": "321",
+    "category":"Asia",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/a522d634-a71f-4565-bf65-6084a2b25eb4.jpg"
+  },
+  {
+    "name": "Teriyaki Chicken Superbowl",
+    "price": "399",
+    "category":"Asia",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/3c8f4e2a-ccce-41a7-ab35-f6774bacb1ea.JPG"
+  },
+  {
+    "name": "Bangkok Street Noodle Bowl",
+    "price": "220",
+    "category":"Asia",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/8accb8c8-3cb6-4d18-9800-f5cf6e749e2b.JPG"
+  },
+  {
+    "name": "Singapore Chilli Chicken",
+    "price": "340",
+    "category":"Asia",
+    "photo":"https://d3gy1em549lxx2.cloudfront.net/4859dfab-7b20-4f33-8caf-102ad8cfa7a3.jpg"
+  }
+]

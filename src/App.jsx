@@ -1,14 +1,14 @@
 import './App.css'
-import ProductProvider from './Context/ProductProvider'
+import PracticeBackground from './Components/Practicing-config/practiceBackground'
 import router from './Route/Route'
 import {RouterProvider} from 'react-router-dom'
 function App() {
   
   return (
     <div className="App">
-      <ProductProvider>
+      {/* <PracticeBackground>
+      </PracticeBackground> */}
       <RouterProvider router={router}></RouterProvider>
-      </ProductProvider>
      
     </div>
   )

@@ -1,14 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Main/Main";
 import Home from './../Home/Home';
-import MyCard from "../Pages/MyCard/MyCard";
-import SignUp from "../SignUp/SignUp";
-import Login from "../Login/Login";
-import Dashboard from "../Dashboard/Dashboard";
-import AllProducts from "../Dashboard/AllProducts/AllProducts";
-import AllUser from "../Dashboard/AllUser/AllUser";
-import PrivateRoute from "./PrivateRoute";
-import ProductCart from "../Home/ProductCart";
+import Projects from "../Projects/Projects";
+import Blog from "../Blog/Blog";
+import Resume from "../Resume/Resume";
+import UpComing from "../UpComing/UpComing";
+import About from "../About/About";
 
 const router = createBrowserRouter([
     {
@@ -19,45 +16,30 @@ const router = createBrowserRouter([
                 path:'/',
                 element:<Home></Home>
             },
-
-            ,
             {
-                path:'/allproducts',
-                element:<PrivateRoute> <MyCard></MyCard></PrivateRoute>,   
+                path:'/projects',
+                element:<Projects></Projects>
             },
             {
-                path:'/allproducts/:id',
-                element:<ProductCart></ProductCart>,
-                loader:({params})=> fetch(`https://m-server-ashen.vercel.app//allproducts/${params.id}`) 
-            },
-            
-            {
-                path:'/signup',
-                element:<SignUp></SignUp>
+                path:'/blog',
+                element:<Blog></Blog>
             },
             {
-                path:'/login',
-                element:<Login></Login>
-            }
+                path:'/resume',
+                element:<Resume></Resume>
+            },
+            {
+                path:'/upcoming',
+                element:<UpComing></UpComing>
+            },
+            {
+                path:'/about',
+                element:<About></About>
+            },
+          
         ]),
         
         
-    }
-    ,{
-   
-            path:'/dahsboard',
-            element:<Dashboard></Dashboard>,
-            children:[
-                {
-                    path:'dahsboard/alusers',
-                    element:<AllUser></AllUser>
-                },
-                {
-                    path:'dashboard/allproducts',
-                    element:<AllProducts></AllProducts>
-                }
-            // 
-            ]
     },
 ])
 export default router
